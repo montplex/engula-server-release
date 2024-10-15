@@ -38,7 +38,7 @@ total 112
 因为 engula-server 与 redis-server 100% 兼容，在现有的 Redis 系统中替换 engula-server 非常简单，只需要用 engula-server 程序替代 redis-server 程序即可。
 
 ## 2.3 监控
-### 2.3.1 通过 "ENGULA INFO" 命令
+### 2.3.1 通过 `ENGULA INFO` 命令
 engula-server 运行过程中，可以用 redis-cli 执行 `engula info` 命令，获取 engula-server 的运行时信息：
 
 注：使用 redis 原生的 redis-cli 程序，不会对 `engula info` 命令输出内容进行换行格式化。使用 engula 安装包中自带的 redis-cli 程序可以获得更易于阅读的输出结果。
