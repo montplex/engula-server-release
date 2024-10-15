@@ -41,7 +41,7 @@ Since engula-server is 100% compatible with redis-server, replacing engula-serve
 
 ## 2.3 Monitoring
 
-### 2.3.1 Using the "ENGULA INFO" Command
+### 2.3.1 Using the `ENGULA INFO` Command
 
 While engula-server is running, you can use redis-cli to execute the `engula info` command to obtain runtime information of engula-server:
 
