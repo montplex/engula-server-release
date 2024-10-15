@@ -26,13 +26,12 @@ Engula's advanced compression algorithm intelligently evaluates data to determin
 ![Transparent-hybrid-compression-en.png](assets/Transparent-hybrid-compression-en.png)
 ### Compression Efficiency
 
-| **Business Name**                                    | **Before Compression** | **After Compression** | **Compression Rate** | **Average Value Size** |
-|------------------------------------------------------|------------------------|-----------------------|----------------------|------------------------|
-| User Profiles for an Internet Forum                  | 13.88 GB               | 6.11 GB               | 44%                  | 4 KB                   |
-| Favorites and Carts in a Food Ordering App           | 2.11 GB                | 0.91 GB               | 42%                  | 2 KB                   |
-| Traffic Operations Records for a Car Rental Platform | 3.1 GB                 | 1.7 GB                | 55%                  | -                      |
-| Bank risk control model data                         | 9.44 GB                | 2.352 GB              | 25%                  | 5 KB                   |
-
+| Industry        | Scenario            | Before Compression | After Compression | Space Savings | Average Value Size |
+|-----------------|---------------------|---------------------|-------------------|---------------|---------------------|
+| Gaming Forum    | Feature Store       | 13.88 GB | 6.11 GB | 56% | 4 KB |
+| Restaurant SaaS | Favorites and Carts | 2.11 GB | 0.91 GB | 57% | 2 KB |
+| Car Rental      | Traffic Operations  | 3.1 GB | 1.7 GB | 45% | - |
+| Banking         | Risk Control Model  | 9.44 GB | 2.352 GB | 75% | 5 KB |
 ## Configuration
 
 Engula supports common Redis configuration parameters to ensure seamless integration.
